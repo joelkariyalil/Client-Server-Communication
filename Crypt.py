@@ -1,29 +1,28 @@
 from cryptography.fernet import Fernet
-import json
+import logging as log
+
+log.basicConfig(filename="Cryptography.log", format='%(asctime)s %(message)s', filemode='w')
+logger = log.getLogger()
+logger.setLevel(log.DEBUG)
 
 def encryptm(message):
+
+    #the byte form of data, and the normal form of data is the same.
+
     key = Fernet.generate_key()
     fernet = Fernet(key)
-    encMessage = fernet.encrypt(message.encode())
-    
-    file = open('key.txt','wb')
-    file.write(key)
-    file.close()
-    return encMessage
+    encMessage = fernet.encrypt(message)
+    logger.info(f'Returned the Encrypted Text: {encMessage}, Key: {key}')
+    return encMessage, key
 
-def decryptm(encMessage):
-
-    #read the key from the Notepad File
-
-    file = open('key.txt','rb')
-    key=file.read()
+def decryptm(encMessage, key):
     fernet = Fernet(key)
-    decMessage = fernet.decrypt(encMessage).decode()
-    return decMessage
+    decMessage = fernet.decrypt(encMessage)
+    logger.info(f'Returned the Encrypted Text: {decMessage}, Key: {key}')
+    return decMessage.decode()
 
-'''
-val=encryptm('Hello')
+#val, key = encryptm(b'Hello')
+# print(val)
+# print(decryptm(val, key))
 
-print(val)
-print(decryptm(val))
-'''
+#encryptm(b'Hello there')

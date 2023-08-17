@@ -1,0 +1,51 @@
+('C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+ 'Program\\Backend\\build\\Client\\Client.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True},
+ [('PYZ-00.pyz',
+   'C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+   'Program\\Backend\\build\\Client\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+   'Program\\Backend\\build\\Client\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+   'Program\\Backend\\build\\Client\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+   'Program\\Backend\\build\\Client\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+   'Program\\Backend\\build\\Client\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+   'Program\\Backend\\build\\Client\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\joeltc071\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'c:\\users\\joeltc071\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('Client',
+   'C:\\Users\\joeltc071\\OneDrive\\Desktop\\Tally Solutions\\Nodes '
+   'Program\\Backend\\Client.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
