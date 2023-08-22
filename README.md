@@ -24,4 +24,4 @@ Features of this Code
 > IP Configuration isn't required.
 > Extensive Logging has been used.
 > Server appends the messages in a Notepad file.
-> Diagrammtic display of File sharing percentages (python tqdm)
+> Diagrammtic display of File sharing percentages (python tqdm module)
